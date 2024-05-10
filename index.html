@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Indumentaria deportiva para los jóvenes">
+    <title>Sports & Fun</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo_zapas.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#Hombres">Hombres</a></li>
+                <li><a href="#Mujeres">Mujeres</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido</h1>
+            <p>LLEGO LA NUEVA COLECCION! :)</p>
+      <img class="contain" src="vista-patineta.jpg" alt="Esta es mi imagen" style="max-width:50%;height:auto">
+        </section>
+
+        <section id="Hombres">
+            <h2>Hombres</h2>
+      <img class="contain" src="zapatillas-sobre-fondo-blanco.jpg" alt="Esta es mi imagen" style="max-width:50%;height:auto">
+        </section>
+
+        <section id="Mujeres">
+            <h2>Mujeres</h2>
+            <div class="gallery">
+                <!-- Aquí van las imágenes del portafolio -->
+      <img class="contain" src="zapatillas-entrenamiento-blancas.jpg" alt="Esta es mi imagen" style="max-width:50%;height:auto">
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <input type="checkbox" name="suscribirse" id="suscribirse">
+                <label for="suscribirse">Suscribirse al boletín</label>
+                <select name="motivo" required>
+                    <option value="">Seleccione un motivo</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="comentario">Comentario</option>
+                    <option value="solicitud">Solicitud</option>
+                </select>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos reservados &copy; 2024 ⚡</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
