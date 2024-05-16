@@ -79,3 +79,17 @@ button {
 button:hover {
     background-color: #555;
 }
+/*estilos para mi boton volver arriba*/
+
+#volverArriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightcoral;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
