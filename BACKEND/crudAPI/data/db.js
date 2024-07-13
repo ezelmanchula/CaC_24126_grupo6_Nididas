@@ -2,7 +2,7 @@ const {Sequelize} = require ("sequelize")
 
 
 /* nombre de la base datos - user - contraseña - {donde esta alojada la bd?, lenguaje,puerto} */
-const db = new Sequelize ("db_nididas","root","Admin123",{
+const db = new Sequelize ("db_nididas","root","",{
     host: "localhost",
     dialect:"mysql",
     port:3306,
