@@ -40,7 +40,7 @@ window.onscroll = function() {
 };
 
 //contacto
-document.getElementById('contactForm').addEventListener('submit', function(event) {
+/*document.getElementById('contactForm').addEventListener('submit', function(event) {
     var formValid = true;
     var inputs = this.querySelectorAll('input, select, textarea');
 
@@ -73,3 +73,4 @@ const carouselContainer = document.querySelector('.carousel-container');
         function updateCarousel() {
             carouselContainer.style.transform = `translateX(${-index * 100}%)`;
         }
+*/
